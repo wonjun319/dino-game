@@ -95,7 +95,7 @@ function 충돌하냐(dino, cactus) {
     }
 }
 
-document.addEventListener('keydown', function (e) {
+document.addEventListener('click', function (e) {
     if (e.code === 'Space') {
         점프중 = true;
     }
