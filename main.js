@@ -94,7 +94,8 @@ function 충돌하냐(dino, cactus) {
         cancelAnimationFrame(animation);
     }
 }
-
-document.addEventListener('click', function () {
-    점프중 = true;
+document.addEventListener('keydown', function (e) {
+    if (e.code === 'click') {
+        점프중 = true;
+    }
 });
